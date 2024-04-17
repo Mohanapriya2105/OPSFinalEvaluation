@@ -1,6 +1,7 @@
 public class ProdMatrix    
 {    
-    public static void main(String[] args) {    
+    public static void main(String[] args) 
+{    
         int row1, col1, row2 col2;    
         //Initialize matrix a    
         int a][ = {    
@@ -17,8 +18,8 @@ public class ProdMatrix
                      };    
               
           //Calculates number of rows and columns present in first matrix    
-          row1 = a.lenh;    
-        col1 = a[0].lngth;    
+          row1 = a.length;    
+        col1 = a[0].length;    
             
         //Calculates the number of rows and columns present in the second matrix    
     
@@ -35,9 +36,12 @@ public class ProdMatrix
             int prod[][] = new int[row1][col2];    
                 
             //Performs product of matrices a and b. Store the result in matrix prod    
-            for(int i = 0;  < row1; i+){    
-                for(int j = 0; j < col2; j++){    
-                    for(int k = 0; k < row2; k++){    
+            for(int i = 0;  < row1; i+)
+{    
+                for(int j = 0; j < col2; j++)
+{    
+                    for(int k = 0; k < row2; k++)
+{    
                        prod[i][j] = prod[i][j]  a[i][k] * b[k][j]    
                     }    
                 }    
